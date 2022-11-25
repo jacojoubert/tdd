@@ -1,4 +1,6 @@
-# Motivation & Context
+# Luna::FormRenderer
+
+## Motivation & Context
 
 We allow our users to customize their page layouts via Form Templates. Form Templates provide a list of fields and an associated section they should be placed in and can be customized via an editor we provide.
 
@@ -69,7 +71,7 @@ This example assumes there is a form template involved. That is not strictly nec
 ];
 ```
 
-Template
+### Template
 
 The template is an array of field definitions describing what the component should render. A Field is a class that extends from the base Field class. It is straightforward to crease your own custom field by simply extending from the base class. Default implementations will be provided for all the normal field types.
 
